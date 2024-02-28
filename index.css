@@ -16,10 +16,10 @@ body{
     text-decoration: underline;
 }
 .main{
-    margin-top: 5%;
+    margin-top: 2%;
     background-color: rgb(123, 90, 77);
     width: 80%;
-    height:70vh;
+    height:90vh;
     padding: 20px;
     border-radius: 10px;
 }
@@ -30,13 +30,34 @@ body{
     color: rgb(248, 39, 39);
 }
 .insight{
-    margin-top: 3%;
+    margin-top: 2%;
     width: 80%;
     height:10vh;
+    background-color: rgb(85, 61, 52);
+    border-radius: 10px;
+    padding: 10px;
 }
 .div_image{
     margin-top:-8%;
-    width: 15%;
-    height: 20vh;
+    width: 20%;
+    height: 30vh;
     float: right;
+}
+.day{
+    background-color: rgb(85, 61, 52);
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+}
+.temp{
+    background-color: rgb(85, 61, 52);
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+}
+.wind{
+    background-color: rgb(85, 61, 52);
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
 }
