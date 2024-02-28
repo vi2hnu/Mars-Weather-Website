@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mars Weather</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="index.js"></script> 
+</head>
+
+<body>
+
+    <div class="main">
+        <h1 class="heading">Mars <span class="red">Weather</span></h1>
+        <div class="day" name="day">
+            <h1 class="text">Sol: <span class="red" data-mars-sol></span>,Mars</h1>
+            <h1 class="text">Date: <span class="red" data-earth></span>,Earth</h1>
+            <img src="1.png" alt="" class="div_image">
+        </div>
+        <br>
+        <div class="temp">
+            <h2 class="text">Maximum Temperature: <span class="red" data-max-temp></span></h2>
+            <h2 class="text">Minimum Temperature: <span class="red"data-min-temp></span></h2>
+        </div>
+        <br>
+        <div class="wind">
+            <h2 class="text">Wind-blast: <br><span class="red" data-wind></span></h2>
+        </div>
+        <div class="insight">
+            <h3 class="text">InSight is taking daily weather measurements (temperature, wind, pressure) on the surface
+                of Mars at <span class="red">Elysium
+                    Planitia</span>, a flat, smooth plain near Mars' equator.</h3>
+        </div>
+    </div>
+</body>
+
+</html>

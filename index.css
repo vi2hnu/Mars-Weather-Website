@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    background-image: url("Mars_landscape.jpg");
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}
+.heading{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0%;
+    text-decoration: underline;
+}
+.main{
+    margin-top: 5%;
+    background-color: rgb(123, 90, 77);
+    width: 80%;
+    height:70vh;
+    padding: 20px;
+    border-radius: 10px;
+}
+.text{
+    color: white;
+}
+.red{
+    color: rgb(248, 39, 39);
+}
+.insight{
+    margin-top: 3%;
+    width: 80%;
+    height:10vh;
+}
+.div_image{
+    margin-top:-8%;
+    width: 15%;
+    height: 20vh;
+    float: right;
+}
