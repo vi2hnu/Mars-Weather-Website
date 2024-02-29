@@ -18,7 +18,7 @@ Welcome to the Mars Weather Website! This website provides up-to-date informatio
 - Special thanks to NASA and other space agencies for providing valuable data and insights into Martian weather conditions.
 - Contributors and supporters who have helped improve and maintain this website.
 
-##Note:
+## Note:
 The nasa Insight has unfortunately stopped working after 4 years: https://www.nasa.gov/press-release/nasa-retires-insight-mars-lander-mission-after-years-of-science
 So this website doesnt provide real time accurate weather on mars today. This website contains data up until only till day 681.
 
