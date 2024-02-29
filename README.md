@@ -3,12 +3,12 @@ Overview
 
 Welcome to the Mars Weather Website! This website provides up-to-date information on the weather conditions on the planet Mars. Whether you're a space enthusiast, a scientist, or just curious about the Red Planet, this website offers a glimpse into the atmospheric conditions and temperature variations on Mars.
 Features
-Technologies Used
 
-HTML5
-CSS3
-JavaScript
-Mars Weather API - "https://mars.nasa.gov/rss/api/?feed=weather&category=insight_temperature&feedtype=json&ver=1.0"
+Technologies Used
+    HTML5
+    CSS3
+    JavaScript
+    Mars Weather API - "https://mars.nasa.gov/rss/api/?feed=weather&category=insight_temperature&feedtype=json&ver=1.0"
 
 
 Note!
