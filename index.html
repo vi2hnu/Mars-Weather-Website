@@ -7,22 +7,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <script src="index.js"></script> 
+    <script src="index.js"></script>
 </head>
 
 <body>
 
     <div class="main">
         <h1 class="heading">Mars <span class="red">Weather</span></h1>
-        <div class="day" name="day">
-            <h1 class="text">Sol: <span class="red" data-mars-sol></span>,Mars</h1>
-            <h1 class="text">Date: <span class="red" data-earth></span>,Earth</h1>
-            <img src="icon.png" alt="" class="div_image">
+        <div class="side">
+            <h2 class="text">Mars is colder than Earth, with average temperatures around -62 degrees Celsius.
+                Temperatures can vary widely depending on the location and time of day, ranging
+                from a maximum of 20 degrees Celsius near the equator during the day to as low
+                as -125 degrees Celsius near the poles at night. <br> Dust storms often lead to high-speed
+                winds that can shape the Martian landscape and move large amounts of dust around the planet.</h2>
         </div>
+        <div class="day" name="day">
+            <h1 class="text">Sol: <span class="red" data-mars-sol></span>, Mars</h1>
+            <h3 class="text">Date: <span class="red" data-earth></span>, Earth</h3>
+        </div>
+
         <br>
         <div class="temp">
             <h2 class="text">Maximum Temperature: <span class="red" data-max-temp></span></h2>
-            <h2 class="text">Minimum Temperature: <span class="red"data-min-temp></span></h2>
+            <h2 class="text">Minimum Temperature: <span class="red" data-min-temp></span></h2>
         </div>
         <br>
         <div class="wind">
