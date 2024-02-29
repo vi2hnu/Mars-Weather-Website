@@ -2,12 +2,6 @@ const api_url = "https://mars.nasa.gov/rss/api/?feed=weather&category=insight_te
 let index;
 
 getWeather().then(sols => {
-    const date = new Date();
-
-    let day = date.getDate();
-    let month = date.getMonth() + 1;
-    let year = date.getFullYear();
-    let currentDate = `${day}-${month}-${year}`;
     index = sols.length - 1
     const sol = document.querySelector('[data-mars-sol]')
     const edate = document.querySelector('[data-earth]')
@@ -15,13 +9,15 @@ getWeather().then(sols => {
     const min = document.querySelector('[data-min-temp]')
     const wind = document.querySelector('[data-wind]')
     sol.innerHTML = sols[index].mdate
-    edate.innerHTML = currentDate
     max.innerHTML = sols[index].max + ' C'
     min.innerHTML = sols[index].min + ' C'
     wind.innerHTML = sols[index].win + ' KMPH'
+    edate.innerHTML = getDate(sols[index].edate)
 })
 
-
+function getDate(date){
+    return date.toLocaleDateString(undefined,{day:'numeric',month:'long'})
+}
 
 function getWeather() {
     return fetch(api_url)
@@ -37,7 +33,8 @@ function getWeather() {
                     mdate: sol,
                     max: others.AT.mx,
                     min: others.AT.mn,
-                    win: others.HWS.av
+                    win: others.HWS.av,
+                    edate : new Date(others.First_UTC)
                 }
             })
         })
