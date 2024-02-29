@@ -23,5 +23,6 @@ The nasa Insight has unfortunately stopped working after 4 years: https://www.na
 So this website doesnt provide real time accurate weather on mars today. This website contains data up until only till day 681.
 
 
-![image](https://github.com/vi2hnu/Mars-Weather-Website/assets/130527742/feece564-e0ba-4df9-8293-b95e1615b023)
+![image](https://github.com/vi2hnu/Mars-Weather-Website/assets/130527742/2b15d9b7-3985-4864-813a-0b27c2a7c03a)
+
 
