@@ -10,7 +10,7 @@ Welcome to the Mars Weather Website! This website provides up-to-date informatio
 - HTML5
 - CSS3
 - JavaScript
-- [Mars Weather API](#) - https://mars.nasa.gov/rss/api/?feed=weather&category=insight_temperature&feedtype=json&ver=1.0
+- [Mars Weather API](https://mars.nasa.gov/rss/api/?feed=weather&category=insight_temperature&feedtype=json&ver=1.0) 
 
 
 ## Acknowledgments
