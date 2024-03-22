@@ -4,7 +4,7 @@ body{
     display:flex;
     justify-content: center;
     font-family: 'Roboto';
-    background-image: url("Mars_landscape.jpg");
+    background-image: url("marswallpaper.jpg");
     background-size: cover;
 }
 .heading{
@@ -16,7 +16,7 @@ body{
 }
 .main{
     margin-top: 2%;
-    background-color: #88473d;
+    backdrop-filter: blur(2px);
     width: 80%;
     height:90vh;
     padding: 20px;
